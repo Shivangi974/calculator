@@ -1,0 +1,68 @@
+body{
+    background-color:#ebb1c6b7;
+}
+.calculator{
+    width: 412px;
+    height: 787px;
+    background-color:#CC5D95;
+    border-radius: 20px;
+
+    /* center me calculator lane k lie  */
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+input{
+    box-sizing: border-box;
+
+    width: 378px;
+    height: 262px;
+    margin: 4.2%;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 60px;
+    font-weight: bold;
+    border: none;
+}
+button{
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    font-size: 48px;
+}
+.button-number{
+    box-sizing: border-box;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    color: white;
+    background-color: #80005E;
+    border: none;
+}
+#operation{
+    background-color:#CC86A9;
+    color: #80005E;
+    border-radius: 10%;
+}
+#clearbutton{
+    margin-left: 4%;
+    margin-bottom: 4%;
+    width: 170px;
+    height: 80px;
+    color: #80005E;
+    background-color: white;
+    border-radius: 10%;
+    border: none;
+}
+#equalsbutton{
+    margin-left: 6%;
+    margin-bottom: 4%;
+    width:178px;
+    height: 80px;
+    color: #80005E;
+    background-color: white;
+    border-radius: 10%;
+    border: none;
+}
